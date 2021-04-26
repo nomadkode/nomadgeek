@@ -1,3 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   background-color: #3b27ba;
+}
+
+.jumbotron {
+  height: 90vh;
+  padding: 8em 8em;
+  background-color: #3b27ba;
+  color: #f1f1f1;
+}
+
+.hero {
+  width: 25em;
+  position: relative;
+  top: -10em;
+  left: 35em;
+}
+
+.btn {
+  background-color: #f1f1f1;
+  color: #000;
+  margin-top: -18em;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #3b27ba;
 }

@@ -1,32 +1,41 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/** Navbar */
 .navbar {
   background-color: #3b27ba;
 }
 
+/** Hero */
 .jumbotron {
   height: 90vh;
-  padding: 8em 8em;
+  padding: 8rem 8rem;
   background-color: #3b27ba;
   color: #f1f1f1;
 }
 
 .hero {
-  width: 25em;
+  width: 40%;
   position: relative;
-  top: -10em;
-  left: 35em;
+  top: -10rem;
+  left: 35rem;
 }
 
 .btn {
   background-color: #f1f1f1;
   color: #000;
-  margin-top: -18em;
+  margin-top: -18rem;
 }
 
 .btn:hover {
-  background-color: #000;
-  color: #3b27ba;
+  background-color: #e847ae;
+  color: #f1f1f1;
+}
+
+/** Waves */
+.waves {
+  width: 100%;
 }

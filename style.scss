@@ -5,6 +5,28 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** Custom Scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e847ae;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #3b27ba;
+}
+
 /** Navbar */
 .navbar {
   background-color: #3b27ba;
@@ -13,26 +35,38 @@
 /** Hero */
 .jumbotron {
   height: 90vh;
-  padding: 8rem 8rem;
+  margin: 0 auto;
+  padding: 2rem 3rem;
   background-color: #3b27ba;
   color: #f1f1f1;
-}
+  display: flex;
+  flex-flow: row wrap;
 
-.hero {
-  width: 40%;
-  position: relative;
-  top: -10rem;
-  left: 35rem;
-}
+  .hero_text {
+    width: 50%;
+    margin: 3rem 2rem;
+    padding: 3rem 3rem;
 
-.btn {
-  background-color: #f1f1f1;
-  color: #000;
-  margin-top: -18rem;
+    h1 {
+      text-transform: uppercase;
+    }
 
-  &:hover {
-    background-color: #e847ae;
-    color: #f1f1f1;
+    .btn {
+      margin-top: 1.2rem;
+      background-color: #f1f1f1;
+      color: #000;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #e847ae;
+        color: #f1f1f1;
+      }
+    }
+  }
+
+  .hero_img {
+    width: 35%;
+    margin: -3rem 2rem 2rem;
   }
 }
 

@@ -35,7 +35,7 @@ body::-webkit-scrollbar-track {
 
 /** Hero */
 .jumbotron {
-  height: 90vh;
+  height: 80vh;
   margin: 0 auto;
   padding: 2rem 3rem;
   background-color: #3b27ba;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar-track {
 
 .jumbotron .hero_img {
   width: 35%;
-  margin: -3rem 2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 /** Waves */

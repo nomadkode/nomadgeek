@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /** Navbar */
@@ -30,15 +29,14 @@
   background-color: #f1f1f1;
   color: #000;
   margin-top: -18rem;
-}
 
-.btn:hover {
-  background-color: #e847ae;
-  color: #f1f1f1;
+  &:hover {
+    background-color: #e847ae;
+    color: #f1f1f1;
+  }
 }
 
 /** Waves */
 .waves {
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */

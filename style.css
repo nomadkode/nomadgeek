@@ -76,3 +76,9 @@ body::-webkit-scrollbar-track {
 .waves {
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .hero_img {
+    display: none;
+  }
+}

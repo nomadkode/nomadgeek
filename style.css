@@ -108,13 +108,23 @@ body::-webkit-scrollbar-track {
   height: 100vh;
 }
 
-.carousel-caption {
-  font-weight: bolder;
-  color: #92a013;
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
 }
 
+.carousel-caption {
+  font-weight: bolder;
+  color: #d6eb1d;
+}
+
+/** Mobile Responsive */
 @media only screen and (max-width: 1000px) {
   .hero_img {
     display: none;
+  }
+
+  .carousel-item {
+    height: 100%;
   }
 }

@@ -108,6 +108,11 @@ body::-webkit-scrollbar-track {
   height: 100vh;
 }
 
+.carousel-caption {
+  font-weight: bolder;
+  color: #92a013;
+}
+
 @media only screen and (max-width: 1000px) {
   .hero_img {
     display: none;

@@ -47,8 +47,8 @@ body::-webkit-scrollbar-track {
 
 .jumbotron .hero_text {
   width: 50%;
-  margin: 3rem 2rem;
-  padding: 3rem 3rem;
+  margin: 3rem 3rem;
+  padding: 2rem 1rem;
 }
 
 .jumbotron .hero_text h1 {
@@ -74,7 +74,32 @@ body::-webkit-scrollbar-track {
 
 /** Waves */
 .waves {
+  margin-top: -1rem;
   width: 100%;
+}
+
+/** About Us */
+
+.about_card {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-top: 5px solid #4a2efa;
+  border-bottom: 1px solid #4a2efa;
+  border-left: 1px solid #4a2efa;
+  border-right: 1px solid #4a2efa;
+  transition: all 0.4s ease-in-out;
+}
+
+.about_card:hover {
+  border-top: 10px solid #e847ae;
+  border-bottom: 4px solid #e847ae;
+  border-left: 4px solid #e847ae;
+  border-right: 4px solid #e847ae;
+}
+
+.about_card img {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {

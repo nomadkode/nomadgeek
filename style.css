@@ -89,10 +89,11 @@ body::-webkit-scrollbar-track {
   margin: 2rem;
   padding: 1rem;
   background-color: #f1f1f1;
-  border-top: 5px solid #4a2efa;
-  border-bottom: 1px solid #4a2efa;
-  border-left: 1px solid #4a2efa;
-  border-right: 1px solid #4a2efa;
+  color: #3b27ba;
+  border-top: 5px solid #3b27ba;
+  border-bottom: 1px solid #3b27ba;
+  border-left: 1px solid #3b27ba;
+  border-right: 1px solid #3b27ba;
   transition: all 0.4s ease-in-out;
 }
 
@@ -110,7 +111,8 @@ body::-webkit-scrollbar-track {
 /** Carousel  */
 
 .carousel-item {
-  height: 100vh;
+  height: 90vh;
+  border: 10px solid #3b27ba;
 }
 
 .carousel-item img {

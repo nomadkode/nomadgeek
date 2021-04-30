@@ -68,7 +68,7 @@ body::-webkit-scrollbar-track {
 }
 
 .jumbotron .hero_img {
-  width: 35%;
+  width: 32%;
   margin: 2rem 2rem;
 }
 
@@ -100,6 +100,12 @@ body::-webkit-scrollbar-track {
 
 .about_card img {
   margin-bottom: 1rem;
+}
+
+/** Carousel  */
+
+.carousel-item {
+  height: 100vh;
 }
 
 @media only screen and (max-width: 1000px) {

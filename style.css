@@ -73,8 +73,13 @@ body::-webkit-scrollbar-track {
 }
 
 /** Waves */
-.waves {
+.waves1 {
   margin-top: -1rem;
+  width: 100%;
+}
+
+.waves2 {
+  margin-bottom: -1rem;
   width: 100%;
 }
 

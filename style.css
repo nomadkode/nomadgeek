@@ -59,7 +59,7 @@ body::-webkit-scrollbar-track {
   margin-top: 1.2rem;
   background-color: #f1f1f1;
   color: #000;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .jumbotron .hero_text .btn:hover {
@@ -136,6 +136,18 @@ body::-webkit-scrollbar-track {
 }
 
 /** Contact  */
+
+.btn_contact {
+  padding: 0.5rem 2rem;
+  background-color: #3b27ba;
+  color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.btn_contact:hover {
+  background-color: #e847ae;
+  color: #f1f1f1;
+}
 
 /** Mobile Responsive */
 @media only screen and (max-width: 1000px) {

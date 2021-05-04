@@ -83,6 +83,16 @@ body::-webkit-scrollbar-track {
   width: 100%;
 }
 
+.waves3 {
+  margin-top: -1rem;
+  width: 100%;
+}
+
+.waves4 {
+  margin-bottom: -1rem;
+  width: 100%;
+}
+
 /** About Us */
 
 .about_card {
@@ -124,6 +134,8 @@ body::-webkit-scrollbar-track {
   font-weight: bolder;
   color: #d6eb1d;
 }
+
+/** Contact  */
 
 /** Mobile Responsive */
 @media only screen and (max-width: 1000px) {

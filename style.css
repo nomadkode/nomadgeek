@@ -29,6 +29,10 @@ body::-webkit-scrollbar-track {
   background-color: #3b27ba;
 }
 
+section {
+  padding-top: 5rem;
+}
+
 /** Navbar */
 .navbar {
   background-color: #3b27ba;
@@ -77,6 +81,7 @@ body::-webkit-scrollbar-track {
 /** Waves */
 .waves1 {
   margin-top: -1rem;
+  margin-bottom: -3rem;
   width: 100%;
 }
 
@@ -121,6 +126,10 @@ body::-webkit-scrollbar-track {
 }
 
 /** Carousel  */
+
+.product {
+  background-color: #3b27ba;
+}
 
 .carousel-item {
   height: 90vh;

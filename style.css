@@ -11,6 +11,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #f1f1f1;
+  color: #000;
 }
 
 /** Custom Scrollbar */
@@ -152,6 +154,28 @@ body::-webkit-scrollbar-track {
 .btn_contact:hover {
   background-color: #e847ae;
   color: #f1f1f1;
+}
+
+/** Footer  */
+.footer {
+  background-color: #1f1f1f;
+}
+
+.copy {
+  color: #3b27ba;
+}
+
+/** Dark mode  */
+.dark-mode {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+.btn_dark {
+  padding: 0.5rem;
+  background-color: #3b27ba;
+  color: #f1f1f1;
+  border-radius: 5px;
 }
 
 /** Mobile Responsive */

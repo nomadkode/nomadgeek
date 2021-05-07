@@ -111,14 +111,13 @@ section {
   border-bottom: 1px solid #3b27ba;
   border-left: 1px solid #3b27ba;
   border-right: 1px solid #3b27ba;
-  transition: all 0.4s ease-in-out;
 }
 
 .about_card:hover {
-  border-top: 10px solid #e847ae;
-  border-bottom: 4px solid #e847ae;
-  border-left: 4px solid #e847ae;
-  border-right: 4px solid #e847ae;
+  border-top: 5px solid #e847ae;
+  border-bottom: 1px solid #e847ae;
+  border-left: 1px solid #e847ae;
+  border-right: 1px solid #e847ae;
 }
 
 .about_card img {

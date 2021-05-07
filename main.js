@@ -6,3 +6,6 @@ function darkMode() {
 
 //* Footer
 document.getElementById('year').innerHTML = new Date().getFullYear();
+
+//* AOS
+AOS.init();
